@@ -1,0 +1,76 @@
+🔹 FORMAS BÁSICAS
+🟥 rect
+rect(x, y, w, h);
+x, y → posición
+w → ancho
+h → alto
+
+👉 Ejemplo:
+
+rect(100, 200, 150, 80);
+⚪ circle
+circle(x, y, d);
+x, y → centro
+d → diámetro
+
+👉 Ejemplo:
+
+circle(400, 300, 100);
+🟠 ellipse
+ellipse(x, y, w, h);
+x, y → centro
+w → ancho
+h → alto
+
+👉 Ejemplo:
+
+ellipse(400, 300, 150, 100);
+📏 line
+line(x1, y1, x2, y2);
+(x1, y1) → punto inicial
+(x2, y2) → punto final
+
+👉 Ejemplo:
+
+line(100, 100, 300, 300);
+🔺 triangle
+triangle(x1, y1, x2, y2, x3, y3);
+3 puntos (3 esquinas)
+
+👉 Ejemplo:
+
+triangle(200, 100, 100, 300, 300, 300);
+🔹 OTRAS FORMAS
+🔹 point
+point(x, y);
+
+👉 Ejemplo:
+
+point(400, 300);
+🔷 quad
+quad(x1, y1, x2, y2, x3, y3, x4, y4);
+4 puntos
+
+👉 Ejemplo:
+
+quad(100,100, 200,100, 220,200, 80,200);
+🌙 arc
+arc(x, y, w, h, start, stop);
+x, y → centro
+w, h → tamaño
+start, stop → ángulos (en radianes)
+
+👉 Ejemplo:
+
+arc(400, 300, 100, 100, 0, PI);
+🧠 CLAVE IMPORTANTE
+
+👉 TODOS esos valores son:
+
+int (100, 200) ✔
+o float (100.5, 200.2) ✔
+
+👉 También podés usar:
+
+width/2
+height/2
